@@ -50,6 +50,7 @@ function App() {
     
   return (
     <div className="App">
+      <h1>환전 계산기</h1>
       <div className='section'>
         <input ref={before} className="box" type='number' placeholder='숫자를 입력해주세요!'>
         </input>
@@ -76,7 +77,7 @@ function App() {
           }
         </select>
       </div>
-      <button className='section button' onClick={handleGetRates}>환율 계산</button>
+      <button className='section button' onClick={handleGetRates}>계산</button>
     </div>
   );
 }
